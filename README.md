@@ -4,7 +4,7 @@ Description: A versatile website meant to help share information about autism re
 Tools: React Router, TailwindCSS, TypeScript
 
 
-# Set Up Instructions
+## Instructions
 
 ### Installation
 
