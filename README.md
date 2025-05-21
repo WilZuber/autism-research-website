@@ -1,6 +1,8 @@
 # Autism Research Website
 Authored by: Wilson Zuber
+
 Description: A versatile website meant to help share information about autism research suggestions through health website inspired web articles, making the information more accessible to a broader audience.
+
 Tools: React Router, TailwindCSS, TypeScript
 
 
