@@ -3,11 +3,19 @@
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  --color-lightperiwinkle: #a5b4fc;
+  --color-blueblack: #1e1b4b;
+  --color-periwinkle: #818cf8;
+  --color-darkperiwinkle: #4338ca;
+  --color-greyperiwinkle: #f1f4f8ff;
+  --color-blackperiwinkle: #312e81;
 }
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
+  @apply bg-white;
+  @apply text-blueblack;
 
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
