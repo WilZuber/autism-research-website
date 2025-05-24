@@ -1,0 +1,23 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: appleboy/ssh-action@v1.2.2
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.KEY }}
+          port: ${{ secrets.PORT }}
+          script: |
+            cd autism-research-website
+            git pull
+            npm ci
+            npm run build
+            rm -rf /var/www/autismlanguage
+            cp -r build/client /var/www/autismlanguage
