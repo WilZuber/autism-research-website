@@ -40,17 +40,17 @@ export default function Home() {
 
         <div className="flex-2 bg-white p-9 px-16">
           <h1 className='text-xl font-bold'>Person-first Language</h1>
-          <p className='text-center'>“Person with autism” – “Child with autism” – “Diagnosed with autism”</p>
+          <p className='text-center'>“Person with autism” &mdash; “Child with autism” &mdash; “Diagnosed with autism”</p>
           <p> Person-first language places autism as something that a person has, rather than a core part of someone’s identity. 
             Some individuals on the spectrum may prefer this language choice because they see themselves as separate from their autism.</p>
 
           <h1 className='text-xl font-bold'>Identity-first Language</h1>
-          <p className='text-center'>“Autistic person” – “Autistic child” – “Diagnosed as autistic”</p>
+          <p className='text-center'>“Autistic person” &mdash; “Autistic child” &mdash; “Diagnosed as autistic”</p>
           <p> Identity-first language places autism as a core part of who someone is. 
             Some individuals on the spectrum may prefer this language choice because they see autism as a core part of their identity.</p>
           
           <h1 className='text-xl font-bold'>Human-Avoidant Language</h1>
-          <p className='text-center'>"Autism Cases" - "ASD Cases" - "Prevalence of Autism"</p>
+          <p className='text-center'>"Autism Cases" &mdash; "ASD Cases" &mdash; "Prevalence of Autism"</p>
           <p>There is no clear consensus on which language type is best in academic writing. 
             Some authors use person-first because it is the standard, others use identity-first to follow insights from the neurodiversity movement. 
             Even within the autistic community there no one way that all autistic individuals prefer to be referred to as. 
