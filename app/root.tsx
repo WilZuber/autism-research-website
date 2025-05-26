@@ -43,21 +43,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
 export default function App() {
   return (
-    <div className="flex flex-col">
-      <div className="gap-3 pr-6 py-3 pl-4">
-        <div className="flex flex-row">
-          <div className="flex-1"></div>
-          <div className="w-14 flex-4"><h1 className="text-2xl text-periwinkle">Autism Language</h1></div>
-          <div className="flex-1 text-xl text-right">Articles</div>
-          <div className="flex-1 text-xl text-right">Resources</div>
-          <div className="flex-1 text-xl text-right">About</div>
-          <div className="flex-1 text-xl text-right">Contact Us</div>
-          <div className="flex-1"></div>
-        </div>
-      </div>
-        <Outlet />
-    </div>
-  
+    <Outlet />
   );
 }
 
