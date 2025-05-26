@@ -14,7 +14,7 @@ export default function Home() {
     <div className="flex flex-col">
 
 
-      <div className="flex-1 flex-col fixed top-0 w-screen bg-white">  {/* header */}
+      <div className="flex-1 flex-col sticky top-0 w-screen bg-white">  {/* header */}
 
         <div className="flex flex-col">
           <nav className="pr-6 py-3 pl-4">
@@ -32,33 +32,31 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex p-14"></div>
-
 
       <div className="flex flex-row bg-greyperiwinkle h-screen">
 
         <div className='flex-1'></div>
         <div className="flex-1">
-          <div className="py-7">
+          <div className="py-7 fixed">
             <h1 className="text-xl font-bold text-blackperiwinkle">Contents</h1>
-            <h2>Person-first Language</h2>
-            <h2>Identity-first Language</h2>
-            <h2>Human-avoidant Language</h2>
+            <h2><NavLink to="/" end className="hover:text-periwinkle">Person-first Language</NavLink></h2>
+            <h2><NavLink to="#identity-first" end className="hover:text-periwinkle">Identity-first Language</NavLink></h2>
+            <h2><NavLink to="#human-avoidant" end className="hover:text-periwinkle">Human-avoidant Language</NavLink></h2>
           </div>
         </div>
 
         <div className="flex-2 bg-white p-9 px-16">
-          <h1 className='text-xl font-bold'>Person-first Language</h1>
+          <h1 id='person-first' className='text-xl font-bold'>Person-first Language</h1>
           <p className='text-center'>“Person with autism” &mdash; “Child with autism” &mdash; “Diagnosed with autism”</p>
           <p> Person-first language places autism as something that a person has, rather than a core part of someone’s identity.
             Some individuals on the spectrum may prefer this language choice because they see themselves as separate from their autism.</p>
 
-          <h1 className='text-xl font-bold'>Identity-first Language</h1>
+          <h1 id='identity-first' className='text-xl font-bold'>Identity-first Language</h1>
           <p className='text-center'>“Autistic person” &mdash; “Autistic child” &mdash; “Diagnosed as autistic”</p>
           <p> Identity-first language places autism as a core part of who someone is.
             Some individuals on the spectrum may prefer this language choice because they see autism as a core part of their identity.</p>
 
-          <h1 className='text-xl font-bold'>Human-Avoidant Language</h1>
+          <h1 id='human-avoidant' className='text-xl font-bold'>Human-Avoidant Language</h1>
           <p className='text-center'>"Autism Cases" &mdash; "ASD Cases" &mdash; "Prevalence of Autism"</p>
           <p>There is no clear consensus on which language type is best in academic writing.
             Some authors use person-first because it is the standard, others use identity-first to follow insights from the neurodiversity movement.
