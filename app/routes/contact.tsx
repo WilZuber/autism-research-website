@@ -24,7 +24,7 @@ export default function Home() {
           
         </div>
 
-        <div className="flex-col gap-1.5 flex max-w-3xl bg-white p-9 px-16">
+        <div className="flex-col gap-1.5 flex max-w-3xl bg-white p-9 px-16 w-3xl min-w-100">
           <h1 id='person-first' className='text-xl font-bold mt-4'><NavLink to="/" end className="hover:text-periwinkle">Send us an email!</NavLink></h1>
           <p className='text-md'>Insert box</p>
         </div>
