@@ -1,4 +1,5 @@
 import type { Route } from "./+types/home";
+import { NavLink } from "react-router";
 import { Welcome } from "../welcome/welcome";
 
 export function meta({}: Route.MetaArgs) {
@@ -18,11 +19,11 @@ export default function Home() {
         <div className="flex flex-col">
           <nav className="pr-6 py-3 pl-4">
             <div className="flex flex-row">
-              <div className="w-14 flex-4"><h1 className="text-2xl text-periwinkle">Autism Language</h1></div>
-              <div className="flex-1 text-xl text-right">Articles</div>
-              <div className="flex-1 text-xl text-right">Resources</div>
-              <div className="flex-1 text-xl text-right">About</div>
-              <div className="flex-1 text-xl text-right">Contact Us</div>
+              <nav className="w-14 flex-4"><h1 className="text-2xl text-periwinkle"><NavLink to="/" end className="hover:text-lightperiwinkle">Autism Language</NavLink></h1></nav>
+              <div className="flex-1 text-xl text-right"><NavLink to="/" end className="hover:text-periwinkle">Articles</NavLink></div>
+              <div className="flex-1 text-xl text-right"><NavLink to="/" end className="hover:text-periwinkle"> Resources</NavLink></div>
+              <div className="flex-1 text-xl text-right"><NavLink to="/" end className="hover:text-periwinkle">About</NavLink></div>
+              <div className="flex-1 text-xl text-right"><NavLink to="/" end className="hover:text-periwinkle">Contact Us</NavLink></div>
             </div>
           </nav>
           <nav className="flex-8 p-4 pl-6 bg-lightperiwinkle">
