@@ -26,7 +26,7 @@ export default function Home() {
 
         <div className="flex-col gap-1.5 flex max-w-3xl bg-white p-9 px-16 w-3xl min-w-100">
           <h1 id='person-first' className='text-xl font-bold mt-4'><NavLink to="/" end className="hover:text-periwinkle">Send us an email!</NavLink></h1>
-          <p className='text-md'>Insert box</p>
+          <p className='text-md'>It's generally a bad idea to put raw emails on a web page as data scrapers will harvest and you will get scam texts and calls.</p>
         </div>
         <div className="min-w-72"></div>
       </div>
