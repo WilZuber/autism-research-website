@@ -52,7 +52,7 @@ export default function Home() {
           <h1 id='human-avoidant' className='text-xl font-bold mt-4'>Human-Avoidant Language</h1>
           <p className='text-center'>"Autism Cases" &mdash; "ASD Cases" &mdash; "Prevalence of Autism"</p>
           <p>It can be tempting to leave these terms like "autistic person" or "person with autism" out altogether, opting to not refer to the individuals at all.
-            While its okay to use abstract terms when referring to autism in the abstract (e.g. "The prevalence of autism"), it's important when conducting research with the aim to benefit autistic individuals that we center the human lives that are being impacted by research goals.
+            While its okay to use abstract terms when referring to autism in the abstract (e.g. "The prevalence of autism"), it's important when conducting research with the aim to benefit autistic individuals that we center the human lives in the language that we use.
             Not only is this true because it may help researchers better align their work towards keeping autistic individuals in mind, but also because language use about groups of individuals can have a large impact on how they feel they are seen by the world especially by the scientific community.
           </p>
         </div>
