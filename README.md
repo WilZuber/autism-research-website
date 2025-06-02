@@ -1,5 +1,6 @@
 # Autism Research Website
 Authored by: Wilson Zuber
+Check it out at: [Autism Language](https://autismlanguage.kalternate.com)
 
 Description: 
 - A versatile website meant to help share information about autism research suggestions.
