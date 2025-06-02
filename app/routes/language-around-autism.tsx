@@ -16,7 +16,7 @@ export default function Home() {
 
       <Navbar title="Language Around Autism - A Guide by Wilson Zuber"></Navbar>
 
-      <div className="flex flex-row gap-5 bg-greyperiwinkle justify-center h-screen">
+      <div className="flex flex-row gap-5 bg-greyperiwinkle justify-center h-full">
         
         <div className="min-w-72 mt-8">
           <div className="rounded-4xl bg-white py-7 p-5 fixed">
