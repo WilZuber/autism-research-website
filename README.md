@@ -1,5 +1,6 @@
 # Autism Research Website
 Authored by: Wilson Zuber
+
 Check it out at: [Autism Language](https://autismlanguage.kalternate.com)
 
 Description: 
